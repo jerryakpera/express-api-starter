@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node ./server"
+    "start": "nodemon ./server"
   },
   "keywords": [],
   "author": "",
@@ -19,9 +19,6 @@
     "winston": "^3.3.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.3",
-    "@babel/node": "^7.12.1",
-    "@babel/preset-env": "^7.12.1",
     "dotenv": "^8.2.0",
     "eslint": "^7.12.0",
     "eslint-config-airbnb-base": "^14.2.0",
